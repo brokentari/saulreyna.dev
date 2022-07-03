@@ -1,7 +1,6 @@
 ---
 date: '2021-07-14'
 title: 'neujcc'
-cover: './neujcc.png'
 github: 'https://github.com/ericli0303/jcc-website-v2'
 external: 'https://neujcc.com/'
 tech:

@@ -1,7 +1,6 @@
 ---
 date: '2022-06-27'
 title: 'saulbot'
-cover: './saulbot.png'
 github: 'https://github.com/brokentari/saulbot-rust'
 tech:
   - Rust

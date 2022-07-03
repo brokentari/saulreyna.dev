@@ -2,7 +2,7 @@
 date: '2021-11-26'
 title: 'saul-portal'
 github: 'https://github.com/brokentari/saul-portal'
-external: 'https://brokentari.github.io/saul-portal/'
+external: 'https://saul-portal-ye8j2.ondigitalocean.app/'
 tech:
   - React
   - Digital Ocean

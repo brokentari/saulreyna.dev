@@ -1,7 +1,6 @@
 ---
 date: '2022-03-08'
 title: 'covey.connect'
-cover: './coveyconnect.png'
 github: 'https://github.com/brokentari/covey-connect'
 external: 'https://adoring-darwin-cc5359.netlify.app'
 tech:
