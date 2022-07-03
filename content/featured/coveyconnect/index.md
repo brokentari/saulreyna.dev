@@ -12,4 +12,4 @@ tech:
   - PostgreSQL
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+A feature to Covey.Town that allows persistent profile sessions and customizability to their display name and profile picture. The feature also introduces a friend system where a participant can invite another user in the same town to their friends list.

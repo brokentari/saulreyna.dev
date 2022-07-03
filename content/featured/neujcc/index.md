@@ -11,4 +11,4 @@ tech:
   - Firebase
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+A landing page for the Northeastern Japanese Culture Club detailing general information about the club, such as activities held by the club and various social media. It also served as a place for new members to easily sign up to the club's mailing list.
