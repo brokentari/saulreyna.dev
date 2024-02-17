@@ -7,7 +7,7 @@ tech:
   - Java
   - Selenium
   - MVC
-showInProjects: true
+showInProjects: false
 ---
 
 A Java model/controller using Selenium to create and execute automated tasks of all kinds (within Selenium's ability) such as automatically filling out a wellness check form or grabbing the country codes from a table.

@@ -7,7 +7,7 @@ tech:
   - Javascript
   - HTML
   - CSS
-showInProjects: true
+showInProjects: false
 ---
 
 Initial iteration of my portfolio site that contained projects, experience and information about me.

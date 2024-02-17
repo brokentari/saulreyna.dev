@@ -144,7 +144,7 @@ const Nav = ({ isHome }) => {
 
     const timeout = setTimeout(() => {
       setIsMounted(true);
-    }, 100);
+    }, 50);
 
     window.addEventListener('scroll', handleScroll);
 
@@ -161,13 +161,9 @@ const Nav = ({ isHome }) => {
   const Logo = (
     <div className="logo" tabIndex="-1">
       {isHome ? (
-        <a href="/" aria-label="home">
-          <IconLogo />
-        </a>
+        <></>
       ) : (
-        <Link to="/" aria-label="home">
-          <IconLogo />
-        </Link>
+        <></>
       )}
     </div>
   );
@@ -216,7 +212,7 @@ const Nav = ({ isHome }) => {
                     navLinks &&
                     navLinks.map(({ url, name }, i) => (
                       <CSSTransition key={i} classNames={fadeDownClass} timeout={timeout}>
-                        <li key={i} style={{ transitionDelay: `${isHome ? i * 100 : 0}ms` }}>
+                        <li key={i} style={{ transitionDelay: `${isHome ? i * 50 : 0}ms` }}>
                           <Link to={url}>{name}</Link>
                         </li>
                       </CSSTransition>
@@ -227,7 +223,7 @@ const Nav = ({ isHome }) => {
               <TransitionGroup component={null}>
                 {isMounted && (
                   <CSSTransition classNames={fadeDownClass} timeout={timeout}>
-                    <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
+                    <div style={{ transitionDelay: `${isHome ? navLinks.length * 50 : 0}ms` }}>
                       {ResumeLink}
                     </div>
                   </CSSTransition>
@@ -237,7 +233,7 @@ const Nav = ({ isHome }) => {
 
             <TransitionGroup component={null}>
               {isMounted && (
-                <CSSTransition classNames={fadeClass} timeout={timeout}>
+                <CSSTransition classNames={fadeClass}  timeout={timeout}>
                   <Menu />
                 </CSSTransition>
               )}

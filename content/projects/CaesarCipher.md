@@ -7,7 +7,7 @@ tech:
   - Javascript
   - HTML
   - CSS
-showInProjects: true
+showInProjects: false
 ---
 
 A tool that encrypts and decrypts text but requesting user input and then performing the requested decryption/encryption based on the button pressed.

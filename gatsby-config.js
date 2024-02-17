@@ -5,7 +5,7 @@ module.exports = {
     title: 'Saul Reyna',
     description:
       'Saul Reyna is a software engineer who specializes in building whatever they find interesting with the tools and technologies he finds most interesting.',
-    siteUrl: 'https://saulreyna.dev', // No trailing slash allowed!
+    siteUrl: 'https://saulreyna.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@brokentari',
   },

@@ -179,6 +179,8 @@ const Jobs = () => {
               location
               range
               url
+              stages
+              stage_range
             }
             html
           }
@@ -273,7 +275,7 @@ const Jobs = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, company, range } = frontmatter;
+              const { title, url, company, range, stages, stage_range } = frontmatter;
 
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
@@ -285,16 +287,35 @@ const Jobs = () => {
                     aria-hidden={activeTabId !== i}
                     hidden={activeTabId !== i}>
                     <h3>
-                      <span>{title}</span>
-                      <span className="company">
-                        &nbsp;@&nbsp;
-                        <a href={url} className="inline-link">
-                          {company}
-                        </a>
-                      </span>
+                      {title ? <span>{title}</span> : 
+                        stages.split(',').map((stage, index) =>
+                          <>
+                            <span>{stage}</span>
+                            <span key="stage" className="company">
+                            &nbsp;@&nbsp;
+                              <a href={url} className="inline-link">
+                                {company}
+                              </a>
+                            </span>
+                            <p className="range">{stage_range.split(',')[index]}</p>
+                            {index + 1 !== stages.split(',').length ? <br /> : <></> }
+                          </>)
+                      }
+
+                      {title ? 
+                        <>
+                          <span className="company">
+                          &nbsp;@&nbsp;
+                            <a href={url} className="inline-link">
+                              {company}
+                            </a>
+                          </span>
+                          <p className="range">{range}</p>
+                        </> : <></>
+                      }
                     </h3>
 
-                    <p className="range">{range}</p>
+                    
 
                     <div dangerouslySetInnerHTML={{ __html: html }} />
                   </StyledTabPanel>

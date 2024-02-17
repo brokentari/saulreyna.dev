@@ -1,10 +1,12 @@
 ---
 date: '2022-06-06'
-title: 'Software Research and Innovation Intern'
+title: ''
 company: 'Dell'
 location: 'Hopkinton, MA'
-range: 'June 2022 - Present'
+range: 'June 2022 - August 2022'
 url: 'https://www.dell.com'
+stages: 'Software Engineer,Software Research and Innovation Intern'
+stage_range: 'May 2022 - August 2022,March 2023 - Present'
 ---
 
 - Research emerging technologies in various fields and wrote study reports to teach findings to the company

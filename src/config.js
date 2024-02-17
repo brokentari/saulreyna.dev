@@ -1,14 +1,10 @@
 module.exports = {
-  email: 'hello@saulreyna.dev',
+  email: 'hello@saulreyna.com',
 
   socialMedia: [
     {
       name: 'GitHub',
       url: 'https://github.com/brokentari',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/saul.png/',
     },
     {
       name: 'Linkedin',

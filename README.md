@@ -2,10 +2,10 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/brokentari/saulreyna.dev/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  saulreyna.dev
+  saulreyna.com
 </h1>
 <p align="center">
-  The second iteration of <a href="https://saulreyna.dev" target="_blank">saulreyna.dev</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.digitalocean.com/" target="_blank">Digital Ocean</a>
+  The second iteration of <a href="https://saulreyna.com" target="_blank">saulreyna.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.digitalocean.com/" target="_blank">Digital Ocean</a>
 </p>
 <p align="center">
   Previous iteration: <a href="https://brokentari.github.io/" target="_blank">v1</a>

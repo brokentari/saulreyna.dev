@@ -64,8 +64,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building whatever I find interesting with the tools and technologies I find interesting.
-        Currently, I’m focused on researching emerging technologies and teaching the findings
+        I'm a software engineer specializing in building whatever I find interesting with the tools and technologies I am excited to learn about.
+        Currently, I am working on researching emerging technologies and building tools to create AI products
         at{' '}
         <a href="https://dell.com/" target="_blank" rel="noreferrer">
           Dell

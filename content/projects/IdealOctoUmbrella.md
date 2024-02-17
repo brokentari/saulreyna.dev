@@ -6,7 +6,7 @@ external: ''
 tech:
   - Go
   - React
-  - WebSockets
+  - WebSocket
 showInProjects: true
 ---
 

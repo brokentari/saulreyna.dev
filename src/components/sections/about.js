@@ -135,30 +135,20 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Saul and I enjoy creating tools thats make my life easier or
-              involves learning technologies I find interesting. This interest in building any
-              software first started in 2010 when I watched a YouTube tutorial on modifying a
-              password field on a site to show as text by inspecting the element.
+              Hello! My name is Saul and I enjoy building tools thats make my life easier and
+              allows me to work with technologies I am excited to learn. 
             </p>
 
-            <p>
-              Ever since then, I've tried to build things with whatever software I can get my hands
-              on, however trivial the final product might be, and always look to learn new things.
-            </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
+              As of now, and I've been able to work at{' '}
               <a href="https://verisk.com/">a catastrophe and risk modeling business</a> and
               <a href="https://avigilon.com/">a video analytics company</a>. My main focus these
               days is researching emerging technologies and teaching the findings at{' '}
               <a href="https://dell.com/">Dell</a> for a variety of teams and stakeholders.
             </p>
-            <p>Here are a few technologies I've been working with recently:</p>
+            
           </div>
-
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
         </StyledText>
 
         <StyledPic>
